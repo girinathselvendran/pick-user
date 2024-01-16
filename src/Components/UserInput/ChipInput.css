@@ -1,0 +1,100 @@
+.chips-container {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 8px;
+    border-bottom: 3px solid #407eb1;
+  }
+  
+  .chip {
+    background-color: #e0e0e0;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+  }
+  
+  .highlight-chip {
+    border: 2px solid #0b57d0;
+    color: #0b57d0;
+  }
+  
+  .highlight-chip-remove {
+    color: #0b57d0 !important;
+  }
+  
+  .chip-remove {
+    margin-left: 8px;
+    cursor: pointer;
+    color: #666;
+  }
+  
+  .chip-input {
+    border: none;
+    outline: none;
+  }
+  
+  .chip-input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #fff;
+  }
+  
+  .chip img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ccc;
+    border-radius: 30px;
+    margin-right: 10px;
+  }
+  
+  input::-webkit-calendar-picker-indicator {
+    display: none !important;
+  }
+  .chipCmp {
+    position: absolute;
+    display: inline-block;
+    background: white;
+    padding: 2px 8px;
+    margin: 2px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    max-height: 250px;
+    overflow-y: scroll;
+  }
+  
+  .hide {
+    display: none;
+  }
+  .show {
+    display: block;
+  }
+  
+  .user-info {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .user-info img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ccc;
+    border-radius: 30px;
+  }
+  
+  .user-info b {
+    text-align: start;
+  }
+  .user-info span {
+    text-align: right;
+    width: auto;
+  }
+  
